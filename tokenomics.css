@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cutive+Mono&family=Lexend+Zetta:wght@300&family=Noto+Sans:ital,wght@1,535&family=Passion+One:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(Oceanpets\ Landing\ -\ HOME.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.nav {
+  display: flex;
+  margin-right: 10px;
+  gap: 30px;
+}
+.a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.573);
+  font-family: "Passion One", sans-serif;
+  font-weight: 50;
+  font-style: normal;
+}
+.a:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  color: white;
+}
+.img {
+  margin-left: 10px;
+}
+.imghz {
+  /* width: 701.95px;
+  height: 388px;
+  top: 283.83px;
+  left: 885.3px;
+  gap: 0px;
+  border: 1.48px 0px 0px 0px;
+  opacity: 0px; */
+}
+.h1 {
+  font-family: Passion One;
+  font-size: 60px;
+  font-weight: 400;
+
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+}
+.p {
+  font-family: Product Sans;
+  font-size: 18px;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.div-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  margin: 150px;
+}
+@media (max-width: 767px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .a {
+    font-size: 14px;
+  }
+  .div-wrapper {
+    grid-template-columns: 1fr;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .imghz {
+    width: 408;
+    height: 264px;
+  }
+  .section {
+    width: 408;
+    height: 264px;
+  }
+  .h1 {
+    font-size: 40px;
+  }
+  .p {
+    font-size: 12px;
+  }
+  .section {
+    width: 408;
+    height: 264px;
+  }
+}

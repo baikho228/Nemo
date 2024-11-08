@@ -1,0 +1,304 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cutive+Mono&family=Lexend+Zetta:wght@300&family=Noto+Sans:ital,wght@1,535&family=Passion+One:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  background-image: url(Oceanpets\ Landing\ -\ HOME.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.p {
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 96px;
+  font-weight: 400;
+  background: radial-gradient(
+      circle,
+      rgba(214, 214, 214, 0.36755952380952384) 0%,
+      rgba(253, 253, 253, 1) 0%,
+      rgba(255, 255, 255, 1) 49%,
+      rgba(214, 214, 214, 0.35075280112044815) 100%
+    )
+    100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  text-transform: uppercase;
+  width: 80%;
+}
+.play {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  background-color: rgba(255, 170, 0, 0.7);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.playt {
+  border: 20px solid transparent;
+  border-left: 30px solid rgb(255, 255, 255);
+  margin-left: 27px;
+}
+.section {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.play:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+  background-color: rgba(210, 140, 0, 1);
+}
+.pr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.573);
+  font-family: "Passion One", sans-serif;
+  font-weight: 50;
+  font-style: normal;
+}
+.a:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  color: white;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+  margin-right: 10px;
+}
+.img {
+  margin-left: 10px;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cutive+Mono&family=Lexend+Zetta:wght@300&family=Noto+Sans:ital,wght@1,535&family=Passion+One:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-image: url("Oceanpets Landing - HOME.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px; /* Добавлен отступ для предотвращения наложений */
+}
+
+.p {
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-size: 96px;
+  background: radial-gradient(
+      circle,
+      rgba(214, 214, 214, 0.37) 0%,
+      rgba(253, 253, 253, 1) 0%,
+      rgba(255, 255, 255, 1) 49%,
+      rgba(214, 214, 214, 0.35) 100%
+    ) 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 20px; /* Добавлен отступ снизу */
+}
+
+.play {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  background-color: rgba(255, 170, 0, 9);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+
+.playt {
+  border: 20px solid transparent;
+  border-left: 30px solid rgb(255, 255, 255);
+  margin-left: 27px;
+}
+
+.section {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* .play:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+  background-color: rgba(210, 140, 0, 1);
+} */
+
+.pr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.573);
+  font-family: "Passion One", sans-serif;
+  font-weight: 50;
+  font-size: 18px;
+}
+
+.a:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  color: white;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+  margin-right: 10px;
+}
+
+.img {
+  margin-left: 10px;
+}
+
+/* Медиазапросы для адаптивности */
+
+/* Для экранов меньше 768px (планшеты и мобильные устройства) */
+@media (max-width: 768px) {
+  .main {
+    padding: 10px;
+  }
+
+  .p {
+    font-size: 48px;
+    width: 90%;
+  }
+
+  .play {
+    width: 100px;
+    height: 100px;
+    margin-top: 300px; /* Уменьшили отступы для мобильных */
+  }
+
+  .playt {
+    border-left: 20px solid rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-top: px;
+  }
+
+  .section {
+    height: auto;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 15px;
+    margin: 0;
+  }
+
+  .a {
+    font-size: 16px;
+  }
+  .pr {
+    margin-top: 10px;
+  }
+}
+
+/* Для экранов меньше 480px (мобильные устройства) */
+@media (max-width: 480px) {
+  .p {
+    font-size: 36px;
+  }
+
+  .play {
+    width: 80px;
+    height: 80px;
+    margin-top: 5px; /* Еще меньше отступ для мобильных */
+  }
+
+  .playt {
+    border-left: 15px solid rgb(255, 255, 255);
+    margin-left: 15px;
+  }
+
+  .section {
+    padding: 10px;
+  }
+
+  .header {
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .nav {
+    gap: 10px;
+  }
+
+  .a {
+    font-size: 14px;
+  }
+}
+

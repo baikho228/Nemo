@@ -1,0 +1,164 @@
+
+/* Общие стили */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cutive+Mono&family=Lexend+Zetta:wght@300&family=Noto+Sans:ital,wght@1,535&family=Passion+One:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body {
+  height: 100%; /
+
+}
+
+body {
+  background-image: url("Oceanpets Landing - HOME.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center center; 
+  font-family: "Passion One", sans-serif;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+  background-attachment: fixed;
+}
+
+.main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 90vh; 
+  flex-grow: 1; 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.573);
+  font-family: "Passion One", sans-serif;
+  font-weight: 50;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.a:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  color: white;
+}
+
+.img {
+  width: 150px;
+  margin-left: 10px;
+}
+
+.p {
+  font-family: "Passion One";
+  font-size: 64px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.fishes {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.fish {
+  border: medium solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.fish:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.176);
+}
+
+.imgf {
+  width: 200px;
+  height: 170px;
+  object-fit: cover;
+}
+
+
+@media (max-width: 1200px) {
+  .fishes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .fishes {
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .a {
+    font-size: 14px;
+  }
+
+  .p {
+    font-size: 36px;
+  }
+
+  .img {
+    width: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .p {
+    font-size: 28px;
+  }
+
+  .a {
+    font-size: 12px;
+  }
+
+  .img {
+    width: 100px;
+  }
+
+  .imgf {
+    width: 150px;
+    height: 130px;
+  }
+}
+
+
